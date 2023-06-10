@@ -57,7 +57,7 @@ function App() {
   // List JSX
   return (
     <div className="App">
-      <h1>To Do List App</h1>
+      <h1 className='pageTitle'>To Do List App</h1>
       <div className='inputSection'>
         <button className='label'>Enter Here:</button>
         <input id="textField" onChange={onInputChange} type="text"/>
